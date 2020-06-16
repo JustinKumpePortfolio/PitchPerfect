@@ -6,7 +6,7 @@ Pitch Perfect project submitted for Udacity iOS Developer Nano-Degree
 ## Screenshots
 | Home Screen: Idle | Home Screen: Recording | Play Sounds Screen |
 | ----------------- | ---------------------- | ------------------ |
-| ![HomeScreen-Idle.png](screenshots/HomeScreen-Idle.png) | ![HomeScreen-Recording.png](Screenshots/HomeScreen-Recording.png) | ![PlaySoundScreen.png](Screenshots/PlaySoundScreen.png)
+| ![HomeScreen-Idle.PNG](screenshots/HomeScreen-Idle.PNG) | ![HomeScreen-Recording.PNG](Screenshots/HomeScreen-Recording.PNG) | ![PlaySoundScreen.PNG](Screenshots/PlaySoundScreen.PNG)
 
 ## Frameworks Used
 1. [Foundation](https://developer.apple.com/documentation/foundation)
