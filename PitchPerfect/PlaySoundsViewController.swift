@@ -71,4 +71,19 @@ class PlaySoundsViewController: UIViewController {
         configureUI(.notPlaying)
     }
     
+    
+//    MARK: View Will Disappear
+//    Added to stop audio if user clicks back button before audio playback has finished.
+//    Added per suggestion from Udacity instructor after submission
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        stopAudio()
+    }
+    
+//    This function was not included in submitted Project. This is just to mess with my kid.
+    @IBAction func dragChipmunk(_ sender: Any) {
+        chipmunkButton.setImage(UIImage(named: "waylon"), for: [])
+    }
+    
+    
 }

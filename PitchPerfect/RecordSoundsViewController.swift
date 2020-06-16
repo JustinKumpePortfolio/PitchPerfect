@@ -76,16 +76,12 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     }
     
 //    MARK: Configure UI
-    func configureUI(isRecording: Bool){
-        if isRecording{
-            recordButton.isEnabled = false
-            stopRecordingButton.isEnabled = true
-            recordingLabel.text = "Recording in Progress"
-        }else{
-            recordButton.isEnabled = true
-            stopRecordingButton.isEnabled = false
-            recordingLabel.text = "Tap to Record"
-        }
+//    configureUI was replaced with code provided as a suggestion from Udacity Instructor after submission.
+    func configureUI(isRecording: Bool) {
+        stopRecordingButton.isEnabled = isRecording // to disable the button
+        recordButton.isEnabled = !isRecording // to enable the button
+        recordingLabel.text = !isRecording ? "Tap to Record" : "Recording in Progress"
+
     }
     
 }

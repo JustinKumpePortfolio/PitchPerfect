@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Record Sounds View Controller-->
+        <!--Pitch Perfect-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="RecordSoundsViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
@@ -51,7 +51,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="cRb-sl-P2d"/>
+                    <navigationItem key="navigationItem" title="Pitch Perfect" id="cRb-sl-P2d">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="1bK-v4-jnh"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="recordButton" destination="9Qh-FD-jjv" id="JZi-O0-j9Z"/>
                         <outlet property="recordingLabel" destination="hSx-61-eRg" id="cRp-CT-s6Z"/>
@@ -63,7 +65,7 @@
             </objects>
             <point key="canvasLocation" x="1028.985507246377" y="87.723214285714278"/>
         </scene>
-        <!--Play Sounds View Controller-->
+        <!--Playback Sound-->
         <scene sceneID="EJx-SJ-dcg">
             <objects>
                 <viewController id="Ssf-8k-fRi" customClass="PlaySoundsViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
@@ -100,6 +102,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="191" height="229"/>
                                                 <state key="normal" image="HighPitch"/>
                                                 <connections>
+                                                    <action selector="dragChipmunk:" destination="Ssf-8k-fRi" eventType="touchDragOutside" id="sZH-ZO-RBA"/>
                                                     <action selector="playSoundForButton:" destination="Ssf-8k-fRi" eventType="touchUpInside" id="f5z-it-t17"/>
                                                 </connections>
                                             </button>
@@ -156,7 +159,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Z40-2S-JjJ"/>
                     </view>
-                    <navigationItem key="navigationItem" id="HBI-6c-dG2"/>
+                    <navigationItem key="navigationItem" title="Playback Sound" id="HBI-6c-dG2">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="vLl-7E-TzV"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="chipmunkButton" destination="u2H-9T-tQB" id="i6Q-Gl-O8t"/>
                         <outlet property="echoButton" destination="3vD-0U-uRv" id="sWM-Bd-rSU"/>
