@@ -1,6 +1,5 @@
-<img src="https://img.shields.io/badge/platform-iOS-lightgrey"/> <img src="https://img.shields.io/badge/swift-5-green"/>
-
 # PitchPerfect
+<img src="https://img.shields.io/badge/platform-iOS-lightgrey"/> <img src="https://img.shields.io/badge/swift-5-green"/>
 The Pitch Perfect app was created to specification for my final project in the Intro to iOS Development with Swift course as a part of my iOS Developer Nanodegree from Udacity. Pitch Perfect is an app that allows you to record your voice and then play it back modulated to sound slow (snail), fast (rabbit), high pitch (chipmunk/my son :) ), deep (darth vader), echo, or reverb. This assignment was focust around basic coding and UI Design (I did not create the files that modulate the sound).
 
 
