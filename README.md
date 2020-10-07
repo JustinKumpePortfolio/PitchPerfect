@@ -1,5 +1,5 @@
 # PitchPerfect
-Pitch Perfect project submitted for Udacity iOS Developer Nano-Degree
+The Pitch Perfect app was created to specification for my final project in the Intro to iOS Development with Swift course as a part of my iOS Developer Nanodegree from Udacity. Pitch Perfect is an app that allows you to record your voice and then play it back modulated to sound slow (snail), fast (rabbit), high pitch (chipmunk/my son :) ), deep (darth vader), echo, or reverb. This assignment was focust around basic coding and UI Design (I did not create the files that modulate the sound).
 
 
 ## Screenshots
@@ -12,10 +12,11 @@ Pitch Perfect project submitted for Udacity iOS Developer Nano-Degree
 2. [UIKit](https://developer.apple.com/documentation/uikit)
 3. [AVFoundation](https://developer.apple.com/documentation/avfoundation)
 
-## How to Build
-1. Download or fork & clone project on your desktop.
-2. Open `Pitch Perfect.xcodeproj` file in Xcode.
-3. Now you can build and run the app.
+## Instructions
 
+### Home Screen:
+- Tap the microphone to record your voice
+- Tap the stop button to stop recording and goto the Play Sounds screen
 
-# PitchPerfect
+### Play Sounds Screen:
+- Tap on one of the icons to hear your voice played back to match one of the symbols
